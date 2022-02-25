@@ -1,0 +1,126 @@
+.container {
+   margin: 100px auto;
+    border: 3px solid;
+    background-color: #FAF0E6;
+    width: 40vw;
+    height:300px;
+    border-radius: 20px;
+}
+h1 {
+    text-align: center;
+}
+.hoten{
+    margin: 20px 20px;
+}
+.hoten input{
+    width: 90%;
+    height: 30px;
+    border-radius: 5px;
+}
+.gioitinh{
+    margin: 20px 20px;
+    
+    border-radius: 5px;
+    width: 85%;
+}
+.ngaysinh{
+    margin: 20px 20px;
+}
+.ngaysinh input{
+    width: 90%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.diem{
+    margin: 20px 20px;
+}
+.diem input{
+    width: 90.4%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.nghenghiep{
+    margin: 20px 20px;
+}
+.nghenghiep select{
+    width: 91%;
+    height: 30px;
+    border-radius: 5px;
+}
+.hinhanh{
+    margin: 20px 20px;
+   border: 2px solid ;
+   border-radius: 5px;
+   width: 85%;
+   height: 30px;
+   padding-top: 10px;
+}
+.quoctich{
+    margin: 20px 20px;
+}
+.quoctich select{
+    width: 90%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.option{
+    margin: 20px 20px;
+    border-radius: 5px;
+    width:84%;
+    height: 30px;
+    
+}
+.ghichu{
+    margin: 20px 20px;
+    padding-top: 20px;
+    
+}
+.ghichu textarea{
+    vertical-align: middle;
+    width: 90%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.form-button{
+    background-color: aqua;
+    border-radius: 40px;
+   margin: 5px 10px;
+    font-size: 20px;
+    
+    
+}
+button{
+    width:120px;
+    height: 30px;
+    border-radius: 15px;
+    box-shadow: inset 0px 0px 10px aqua;
+}
+.dangki{
+    margin: 20px 20px;
+    font-size: 20px;
+
+}
+.dangki button:hover{
+    color: pink;
+    background-color: black;
+    opacity: 0.5;
+}
+.form-button-123:disabled{
+    background-color: gray;
+}
+.form-button:hover{
+color: pink;
+background-color: black;
+opacity: 0.5;
+
+}
+input:hover{
+    background-color: yellow;
+}
+textarea:hover{
+    background-color: yellow;
+}

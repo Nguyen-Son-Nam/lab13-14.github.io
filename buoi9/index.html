@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab9</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>HỒ SƠ ĐĂNG KÍ!</h1>
+        <div class="hoten"> 
+            <label for=""> <b> Họ Và Tên: </b></label>
+            <input type="text" placeholder="User Name">
+        </div>
+        <div class="gioitinh"> 
+           <fieldset>
+               <legend>
+                   Giới Tính:
+               </legend>
+               <input type="radio" placeholder="">Nam
+                <input type="radio" placeholder="">Nữ 
+           </fieldset>
+        </div>
+        <div class="ngaysinh">
+            <b>Ngày Sinh:</b>
+            <input type="date">
+        </div>
+        <div class="diem">
+          <b>Điểm: </b>
+          <input type="number" min="0" max="10" step="0.25">
+        </div>
+        <div class="nghenghiep">
+            <b>Nghề Nghiệp:</b>
+            <select name="" id="">
+                <option value="">Học Sinh</option>
+                <option value="">Sinh Viên</option>
+                <option value="">Giáo Viên</option>
+                <option value="">Công Nhân</option>
+                <option value="">Khác</option>
+            </select>
+        </div>
+        <div class="hinhanh">
+           <b> Hình Ảnh:</b>
+           <input type="file" accept="image/png,image/jpeg">
+        </div>
+            <div class="quoctich">
+                <label for=""> <b>Quốc Tịch: </b> </label>
+                <select name="" id="">
+                    <option value="">Việt Nam</option>
+                    <option value="">Mỹ</option>
+                    <option value="">Anh</option>
+                    <option value="">Nhật Bản</option>
+                    <option value="">Úc</option>
+                </select>
+            </div>
+            <div class="option">
+                <fieldset>
+                    <legend>
+                        Sở Thích:
+                    </legend>
+                    <input type="checkbox" name="">Thể Thao 
+                    <input type="checkbox" name="">Du Lịch
+                    <input type="checkbox" name="">Âm Nhạc 
+                    <input type="checkbox" name="">Ẩm Thực  
+                    <input type="checkbox" name="">Thiện Nguyện 
+
+                </fieldset>
+            </div>
+            <div class="ghichu">
+              <b> Ghi Chú: </b> 
+                <textarea name="" id="" cols="20" rows="1"></textarea>
+
+            </div>
+            <div class="dangki">
+                <button>  Đăng Kí </button>
+                <button>  Đăng Nhập</button>
+            </div>
+            <hr>
+            <button class="form-button">Thêm</button>
+            <button class="form-button">Sửa</button>
+            <button class="form-button-123">Xóa</button>
+    </div>
+</body>
+</html>

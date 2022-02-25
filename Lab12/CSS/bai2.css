@@ -1,0 +1,16 @@
+.contain{
+    width:800px;
+    height:340px;
+}
+.video{
+    width:650px;
+    height: 340px;
+    margin-right: 10px;
+    float: left;
+}
+.image > a > img{
+    width:140px;
+    height:100px;
+    margin-bottom: 20px;
+    float: left;
+}
